@@ -5,7 +5,7 @@
 	<artifactId>myweb</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.5</version>
-	<name>my-app</name>
+	<name>PullGitHubCode</name>
 	
 	<!-- Demo on Github Webhooks-->
 
@@ -49,16 +49,16 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.6.1</version>
+            <version>3.9.4</version>
             <configuration>
-                <source>1.7</source>
-                <target>1.7</target>
+                <source>1.11</source>
+                <target>1.11</target>
             </configuration>
         </plugin>
 	<plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
-            <version>2.19</version>
+            <version>3.9.4</version>
         </plugin>
     </plugins>
 </build>
